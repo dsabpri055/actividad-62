@@ -1,4 +1,7 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="^~U_,%q,o/-lqsH,Z?{3" x="83" y="59"><statement name="HANDLER"><block type="controls_if" id="liam+~@ck4;Fe$NjP43k"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="o0j1OE#eb]UN^|8d2=+J"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="+U)~]dn=pt-CQ_BzYL-|"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="A8[]BHOQYt3tkYUK|b7j"><field name="NUM">0</field></shadow><block type="device_temperature" id="/8Y*7sqcqAMdjV@zv!Vy"></block></value><value name="B"><shadow type="math_number" id="f%Pb7)LhLHOZ*rq9YxGt"><field name="NUM">30</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="m)ut@6Xz*aAQZ^}ndLb:"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_print_message" id="({8@%Qx~pK0qk,4bxn3G"><value name="text"><shadow type="text" id="XZ(cT}0{xB{Hw]Y,wZus"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="Wwd29}tt=(KP5b|XwD+Z"></block></value></block></statement></block></statement></block></xml>
